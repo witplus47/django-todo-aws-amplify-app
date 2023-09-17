@@ -1,0 +1,15 @@
+
+{% extends "./base.html "%}
+
+{% block title %}ToDoアプリ{% endblock title %}
+
+{% block content %}
+  <a href="{% url 'tasks' %}">戻る</a>
+  <h1>ToDo詳細</h1>
+  <table border="0" cellspacing="0">
+    <tr><th>タスク詳細</th></tr>
+    <tr><td>{{task.title}}</td></tr>
+    <tr><td>{{task.description}}</td></tr>
+    <tr><td>{{task.completed}}</td></tr>
+  </table>
+{% endblock content %}

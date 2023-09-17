@@ -1,0 +1,117 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Kiwi Maru', serif;
+    padding-top:55px;
+}
+.todoAppWrapper{
+    max-width:530px;
+    margin:0 auto;
+    background-color:#ffffff;
+    box-shadow: 1px 10px 18px 2px #777777;
+    border-radius: 10px;
+}
+a {
+    color:#595959;
+    text-decoration: none;
+}
+
+h1{
+    margin:0;
+}
+.header{
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(0,36,9);
+    background: linear-gradient(90deg, rgba(0,36,9,1) 0%, rgba(9,53,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px 10px 0 0;
+    color:#ffffff;
+}
+.taskWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px;
+    border-top: 1px solid #ccc;
+}
+         
+.taskTitle{
+    display: flex;
+    align-items: center;
+}
+.taskCompletedIcon{
+    width: 20px;
+    height: 20px;
+    background-color: #06c2db;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.taskInCompletedIcon{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(154, 160, 158);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.loginAndLogout{
+    padding: 20px;
+}
+.loginAndLogout a{
+    color:#fa0707;
+}
+.editButton{
+    color:rgb(6, 121, 150);
+}
+.deleteButton{
+    color:#fa0707;
+}
+/*タスク検索のフォーム*/
+.searchWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.searchInput{
+    height: 24px;
+    outline: none;
+    border: 1px solid #06c2db;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px !important;
+}
+.searchButton{
+    border: 1px solid #06c2db;
+    padding: 4px 10px;
+    background-color: azure;
+    color:#06c2db;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 14px ;
+    transition: all 0.4s;
+}
+        
+.searchButton:hover{
+    background-color: #06c2db;
+    color:#ffffff;
+}
+.addButton{
+    font-size: 32px ;
+    color:#06c2db;
+}
+/*追加のフォーム*/
+label {
+    display: block;
+}
+input[type="text"],textarea{
+    width: 100%;
+}
+/*ログインのフォーム*/
+.accountWrapper{
+    padding: 10px 20px  20px  20px;
+}
+.accountWrapper p{
+    margin: 0;
+    padding: 0;
+}
+/*新規登録のフォーム*/
